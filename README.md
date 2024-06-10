@@ -53,11 +53,26 @@ plt.show()
 
 ```
 ## Lets break it down!
-Importing Matplotlib: The matplotlib.pyplot module is imported to enable plotting functionalities.
-Defining Data: Two lists, Y_train and training_data_prediction, are defined to represent the actual and predicted prices, respectively. In practice, these lists would be populated with the actual data from the model.
-Creating the Scatter Plot:
-plt.scatter(Y_train, training_data_prediction): This line creates the scatter plot with actual prices on the x-axis and predicted prices on the y-axis.
-plt.xlabel("Actual Prices"): This line sets the label for the x-axis.
-plt.ylabel("Predicted Prices"): This line sets the label for the y-axis.
-plt.title("Actual Price vs Predicted Price"): This line sets the title of the plot.
-Displaying the Plot: plt.show() is called to display the scatter plot.
+# Importing Matplotlib
+# The matplotlib.pyplot module is imported to enable plotting functionalities.
+import matplotlib.pyplot as plt
+
+# Defining Data
+# Two lists, Y_train and training_data_prediction, are defined to represent the actual and predicted prices, respectively.
+# In practice, these lists would be populated with the actual data from the model.
+Y_train = [100, 200, 300, 400, 500]  # Actual prices
+training_data_prediction = [110, 210, 290, 410, 490]  # Predicted prices
+
+# Creating the Scatter Plot
+# This line creates the scatter plot with actual prices on the x-axis and predicted prices on the y-axis.
+plt.scatter(Y_train, training_data_prediction)
+# This line sets the label for the x-axis.
+plt.xlabel("Actual Prices")
+# This line sets the label for the y-axis.
+plt.ylabel("Predicted Prices")
+# This line sets the title of the plot.
+plt.title("Actual Price vs Predicted Price")
+
+# Displaying the Plot
+# plt.show() is called to display the scatter plot.
+plt.show()
