@@ -53,6 +53,7 @@ plt.show()
 
 ```
 ## Lets break it down!
+```
 # Importing Matplotlib
 # The matplotlib.pyplot module is imported to enable plotting functionalities.
 import matplotlib.pyplot as plt
@@ -76,3 +77,4 @@ plt.title("Actual Price vs Predicted Price")
 # Displaying the Plot
 # plt.show() is called to display the scatter plot.
 plt.show()
+```
