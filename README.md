@@ -1,4 +1,6 @@
-![image](https://github.com/FaizanDhankwala/HousePricePrediction/assets/55712375/8c407841-2903-4d8e-b25f-f991a779df48)
+![image](https://github.com/FaizanDhankwala/HousePricePrediction/assets/55712375/e4de2f70-fc3a-4a05-b6c8-d2b56c9ed302)
+
+# House Price Prediction Model Using Machine Learning
 
 # Project Overview
 
